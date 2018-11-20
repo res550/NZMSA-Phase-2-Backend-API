@@ -13118,11 +13118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Reshad\\Documents\\GitHub\\NZMSA-Phase-2-Backend-API\\New folder\\MPapi\\MPapi\\MPapi.csproj",
+      "projectUniqueName": "C:\\Users\\Reshad\\Documents\\GitHub\\NZMSA-Phase-2-Backend-API\\MPapi\\MPapi\\MPapi.csproj",
       "projectName": "MPapi",
-      "projectPath": "C:\\Users\\Reshad\\Documents\\GitHub\\NZMSA-Phase-2-Backend-API\\New folder\\MPapi\\MPapi\\MPapi.csproj",
+      "projectPath": "C:\\Users\\Reshad\\Documents\\GitHub\\NZMSA-Phase-2-Backend-API\\MPapi\\MPapi\\MPapi.csproj",
       "packagesPath": "C:\\Users\\Reshad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Reshad\\Documents\\GitHub\\NZMSA-Phase-2-Backend-API\\New folder\\MPapi\\MPapi\\obj\\",
+      "outputPath": "C:\\Users\\Reshad\\Documents\\GitHub\\NZMSA-Phase-2-Backend-API\\MPapi\\MPapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

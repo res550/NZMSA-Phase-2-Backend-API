@@ -139,6 +139,42 @@ namespace MPapi.Controllers
             return returned;
             }
 
+        // GET: api/Listing/Ids
+        [HttpGet("search/{title}")]
+        public async Task<List<ListingItem>> GetSpecifiedTitles([FromRoute] string title)
+            {
+            if (string.IsNullOrEmpty(title))
+                {
+                throw new ArgumentException("message", nameof(title));
+                }
+
+            var item = (from m in _context.ListingItem
+                        where checkSub(m.Title,title)
+                        select m);
+            var returned = await item.ToListAsync();
+            return returned;
+            }
+
+        private Boolean checkSub(string title, string search)
+            {
+            title = title.ToLower();
+            search = search.ToLower();
+            char[] tarray = title.ToCharArray();
+            char[] sarray = search.ToCharArray();
+            if (sarray.Length > tarray.Length)
+                {
+                return false;
+                }
+            for (int i = 0; i < sarray.Length; i++)
+                {
+                if (tarray[i] != sarray[i])
+                    {
+                    return false;
+                    }
+                }
+            return true;
+            }
+
         [HttpPost, Route("upload")]
         public async Task<IActionResult> UploadFile([FromForm]ImageItem item)
             {
