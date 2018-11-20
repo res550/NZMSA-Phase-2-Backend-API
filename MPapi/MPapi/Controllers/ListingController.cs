@@ -139,8 +139,8 @@ namespace MPapi.Controllers
             return returned;
             }
 
-        // GET: api/Listing/Ids
-        [HttpGet("search/{title}")]
+        // GET: api/Listing/titles
+        [HttpGet("search/title/{title}")]
         public async Task<List<ListingItem>> GetSpecifiedTitles([FromRoute] string title)
             {
             if (string.IsNullOrEmpty(title))
@@ -173,6 +173,22 @@ namespace MPapi.Controllers
                     }
                 }
             return true;
+            }
+
+        // GET: api/Listing/Ids
+        [HttpGet("search/userId/{userId}")]
+        public async Task<List<ListingItem>> GetSpecifiedIds([FromRoute] string userId)
+            {
+            if (string.IsNullOrEmpty(userId))
+                {
+                throw new ArgumentException("message", nameof(userId));
+                }
+
+            var item = (from m in _context.ListingItem
+                        where m.userId.Equals(userId)
+                        select m);
+            var returned = await item.ToListAsync();
+            return returned;
             }
 
         [HttpPost, Route("upload")]
