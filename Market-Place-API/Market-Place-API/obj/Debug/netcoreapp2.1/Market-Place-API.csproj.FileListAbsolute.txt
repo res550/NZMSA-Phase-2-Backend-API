@@ -1,0 +1,14 @@
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\Market-Place-API.deps.json
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\Market-Place-API.runtimeconfig.json
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\Market-Place-API.runtimeconfig.dev.json
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\Market-Place-API.dll
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\Market-Place-API.pdb
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.csprojAssemblyReference.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.csproj.CoreCompileInputs.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.RazorAssemblyInfo.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.RazorAssemblyInfo.cs
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.AssemblyInfoInputs.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.AssemblyInfo.cs
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.RazorTargetAssemblyInfo.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.dll
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\Market-Place-API.pdb

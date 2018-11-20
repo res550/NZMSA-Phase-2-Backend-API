@@ -1,0 +1,14 @@
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\MPapi.deps.json
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\MPapi.runtimeconfig.json
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\MPapi.runtimeconfig.dev.json
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\MPapi.dll
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.csproj.CoreCompileInputs.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.RazorAssemblyInfo.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.RazorAssemblyInfo.cs
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.AssemblyInfoInputs.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.AssemblyInfo.cs
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.RazorTargetAssemblyInfo.cache
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\bin\Debug\netcoreapp2.1\MPapi.pdb
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.dll
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.pdb
+C:\Users\Reshad\Documents\GitHub\NZMSA-Phase-2-Backend-API\Market-Place-API\Market-Place-API\obj\Debug\netcoreapp2.1\MPapi.csprojAssemblyReference.cache
