@@ -155,6 +155,48 @@ namespace MPapi.Controllers
             return returned;
             }
 
+        // GET: api/Listing/titles
+        [HttpGet("search/titleID/{title}/{id}")]
+        public async Task<List<ListingItem>> GetSpecifiedTitleIDs([FromRoute] string title, string id)
+            {
+            
+            if (string.IsNullOrEmpty(title) || string.IsNullOrEmpty(id))
+                {
+                throw new ArgumentException("message", nameof(title));
+                }
+
+            var item = (from m in _context.ListingItem
+                        where checkSub2(m, title,id)
+                        select m);
+            var returned = await item.ToListAsync();
+            return returned;
+            }
+
+        private Boolean checkSub2(ListingItem item, string search, string userId)
+            {
+            string title = item.Title;
+            title = title.ToLower();
+            search = search.ToLower();
+            char[] tarray = title.ToCharArray();
+            char[] sarray = search.ToCharArray();
+            if (sarray.Length > tarray.Length)
+                {
+                return false;
+                }
+            for (int i = 0; i < sarray.Length; i++)
+                {
+                if (tarray[i] != sarray[i])
+                    {
+                    return false;
+                    }
+                }
+            if (item.userId.Equals(userId))
+                {
+                return true;
+                }
+            return false;
+            }
+
         private Boolean checkSub(string title, string search)
             {
             title = title.ToLower();
@@ -172,6 +214,7 @@ namespace MPapi.Controllers
                     return false;
                     }
                 }
+
             return true;
             }
 
